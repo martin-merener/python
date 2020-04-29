@@ -1,6 +1,6 @@
 
 
-### The Internet: Behind the Scenes
+### The Internet
 
 The Internet is a transport mechanism that lets any connected device communicate with any other connected device. 
 Behind the scenes:
@@ -16,9 +16,9 @@ Behind the scenes:
 http://mongo.com/about
 {protocol}://{server}/{arguments}
 
-server: where to fetch something from
-about: what to fetch from that remote server
-protocol: how to communicate with that remote server
+- server: where to fetch something from
+- about: what to fetch from that remote server
+- protocol: how to communicate with that remote server
 
 Host (server) name: e.g., www.yorku.ca/math
 IP address (internet protocol address): not two computers connected to the internet have the same IP address at the same time.
@@ -29,8 +29,7 @@ There is a map between domain names and IP addresses: distributed lookup system.
 
 ### Routing
 
-How data gets from one computer to another.
-Packages of data are sent through routers.
+How data gets from one computer to another. Packages of data are sent through routers.
 
 
 ### HTTP protocol
@@ -45,10 +44,10 @@ Packages of data are sent through routers.
 
 https://events.umich.edu/list?filter=tags:Art,&range=2018-10-01
 protocol         Host        ?    Arguments   
-	The character question mark indicates that what follows are the query parameters
-	The arguments have format: key=value
-		filter=tags:Art
-		range=2018-10-01
+The character question mark indicates that what follows are the query parameters
+The arguments have format: key=value
+filter=tags:Art
+range=2018-10-01
 
 
 ### REST API URLs
